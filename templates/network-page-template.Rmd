@@ -1,0 +1,16 @@
+---
+title: "Network Page Template"
+output: html_document
+params:
+  dataset: NULL
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+dataset
+```
+
